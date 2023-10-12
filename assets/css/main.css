@@ -2818,7 +2818,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background:  #ffffff;
+		background:  hsla(0, 0%, 100%, 0);
 		padding-right: 23em;
 	}
 
