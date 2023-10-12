@@ -2807,7 +2807,7 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
+							background: #ffffff00;
 							color: #ffffff !important;
 						}
 
