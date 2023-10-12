@@ -1928,9 +1928,9 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #fafafa;
+				background: #fafafa92;
 				border-radius: 5px;
-				border: solid 2px #e4e4e4;
+				border: solid 2px #e4e4e400;
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
