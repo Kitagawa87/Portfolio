@@ -2710,6 +2710,11 @@ input, select, textarea {
 		width: 23em;
 		right: 0;
 	}
+	@media (max-width: 768px) {
+		#header {
+		  padding: 1%; /* Adjust the padding for smaller screens */
+		}
+	  }
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
