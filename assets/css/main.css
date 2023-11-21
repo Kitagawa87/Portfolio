@@ -3319,3 +3319,67 @@ input, select, textarea {
 			}
 
 	}
+
+	/* Default styles for all screen sizes */
+
+body {
+	font-size: 16px;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+  }
+  
+  section {
+	margin: 20px;
+  }
+  
+  /* Media query for smaller screens */
+  
+  @media screen and (max-width: 600px) {
+	body {
+	  font-size: 14px;
+	}
+  
+	header {
+	  font-size: 1.5em;
+	}
+  
+	section {
+	  margin: 10px;
+	}
+  }
+  
+  /* Media query for medium-sized screens */
+  
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+	body {
+	  font-size: 18px;
+	}
+  
+	header {
+	  font-size: 2em;
+	}
+  
+	section {
+	  margin: 30px;
+	}
+  }
+  
+  /* Media query for larger screens */
+  
+  @media screen and (min-width: 1025px) {
+	body {
+	  font-size: 20px;
+	}
+  
+	header {
+	  font-size: 2.5em;
+	}
+  
+	section {
+	  margin: 40px;
+	}
+  }
+  
